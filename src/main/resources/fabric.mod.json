@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "winterworld",
+	"version": "${version}",
+	"name": "WinterWorld",
+	"description": "A simple mod to prevent snow from disappearing near torches/light in general.",
+	"authors": [
+		"Nixuge"
+	],
+	"contact": {
+		"homepage": "https://nixuge.me/",
+		"sources": "https://github.com/Nixuge/WinterWorld"
+	},
+	"license": "Unlicense",
+	"icon": "assets/winterworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.nixuge.WinterWorld"
+		]
+	},
+	"mixins": [
+		"winterworld.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20",
+		"java": ">=21"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "me.nixuge.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "BiomeMixin",
+	  "SnowBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
